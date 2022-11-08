@@ -12,4 +12,5 @@ int main(){
         i++;
     }
     cout<<"sum of the no. is: "<<sum<<endl;
+    
 }
