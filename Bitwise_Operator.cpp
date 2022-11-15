@@ -8,12 +8,16 @@ int main(){
     cout<< "a | b :"<<(a|b)<<endl;
     cout<< "~a :"<<(~a)<<endl;
     cout<< "a ^ b :"<<(a^b)<<endl;
+
+
+    //Left shift and right shift operator
+
+    cout<<(17>>1)<<endl;  //8
+
+    cout<<(17>>2)<<endl;  //4
+
+    cout<<(19<<1)<<endl;  //38
+
+    cout<<(19<<2)<<endl;  //76
+
 }
-
-
-o/p-
-
-a & b :4
-a | b :6
-~a :-5
-a ^ b :2
