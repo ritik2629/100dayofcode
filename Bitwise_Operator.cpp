@@ -20,4 +20,16 @@ int main(){
 
     cout<<(19<<2)<<endl;  //76
 
+
+    //post-increment and pre-increment
+
+    int i=25;
+    cout<<(i++)<<endl;
+    //25 , i=26
+    cout<<(++i)<<endl;
+    //27 i=27
+    cout<<(i--)<<endl;
+    //27, i=26
+    cout<<(--i)<<endl;
+    //25
 }
